@@ -41,6 +41,6 @@ app.use((err, req, res, next) => {
 /************************************************************************************
 Server setup
 ************************************************************************************/
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000')
+const server = app.listen(3000, () => {
+    console.log(`The application is running on localhost:${server.address().port}`)
 });
