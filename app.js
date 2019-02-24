@@ -3,7 +3,6 @@ Require functions
 ************************************************************************************/
 const express = require('express');
 const app = express();
-const data = require('./data.json');
 const routes = require('./routes');
 
 /************************************************************************************
