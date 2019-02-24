@@ -1,10 +1,46 @@
+/************************************************************************************
+Require functions
+************************************************************************************/
 const express = require('express');
 const app = express();
 const data = require('./data.json');
+const routes = require('./routes');
 
-app.get('/', (req, res) => {
-    res.send('Test');
+/************************************************************************************
+Configuration
+set and use functions
+************************************************************************************/
+//Uses the public folder for static files
+app.use('/static', express.static('public'));
+
+//Sets the view engine to pug
+app.set('view engine', 'pug');
+
+/************************************************************************************
+Implementing routes (located in ./routes)
+************************************************************************************/
+app.use(routes);
+
+/************************************************************************************
+Error handling
+************************************************************************************/
+//If route does not exist, generate a 404 error
+app.use((req, res, next) => {
+    const err = new Error('Page Not Found');
+    err.status = 404;
+    next(err);
+});
+
+//EXTRA CREDIT: Handle errors with pug template
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status)
+    res.render('error');
 })
 
-
-app.listen(3000);
+/************************************************************************************
+Server setup
+************************************************************************************/
+app.listen(3000, () => {
+    console.log('The application is running on localhost:3000')
+});
