@@ -10,8 +10,9 @@ const routes = require('./routes');
 Configuration
 set and use functions
 ************************************************************************************/
-//Uses the public folder for static files
+//Uses the public and images folder for static files
 app.use('/static', express.static('public'));
+app.use('/images', express.static('images'));
 
 //Sets the view engine to pug
 app.set('view engine', 'pug');
