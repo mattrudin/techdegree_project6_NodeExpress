@@ -4,6 +4,7 @@ Require functions
 const express = require('express');
 const app = express();
 const routes = require('./routes');
+const projects = require('./routes/projects');
 
 /************************************************************************************
 Configuration
@@ -20,6 +21,7 @@ app.set('view engine', 'pug');
 Implementing routes (located in ./routes)
 ************************************************************************************/
 app.use(routes);
+app.use('/projects', projects);
 
 /************************************************************************************
 Error handling
