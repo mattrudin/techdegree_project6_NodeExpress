@@ -7,8 +7,8 @@
             "live_link": "https://mattrudin.github.io/techdegree_project1_randomQuoteGenerator/",
             "github_link": "https://github.com/mattrudin/techdegree_project1_randomQuoteGenerator",
             "image_urls": [
-                "./images/project1Square",
-                "./images/project1Landscape"
+                "/images/project1Square.png",
+                "/images/project1Landscape.png"
             ]
         },
         {
@@ -19,8 +19,8 @@
             "live_link": "https://mattrudin.github.io/techdegree_project2_paginationAndFiltering/",
             "github_link": "https://github.com/mattrudin/techdegree_project2_paginationAndFiltering",
             "image_urls": [
-                "./images/project2Square",
-                "./images/project2Landscape"
+                "./images/project2Square.png",
+                "./images/project2Landscape.png"
             ]
         },
         {
@@ -31,8 +31,8 @@
             "live_link": "https://mattrudin.github.io/techdegree_project3_interactiveForm/",
             "github_link": "https://github.com/mattrudin/techdegree_project3_interactiveForm",
             "image_urls": [
-                "./images/project3Square",
-                "./images/project3Landscape"
+                "./images/project3Square.png",
+                "./images/project3Landscape.png"
             ]
         },
         {
@@ -43,8 +43,8 @@
             "live_link": "https://mattrudin.github.io/techdegree_project4_OOP/",
             "github_link": "https://github.com/mattrudin/techdegree_project4_OOP",
             "image_urls": [
-                "./images/project4Square",
-                "./images/project4Landscape"
+                "./images/project4Square.png",
+                "./images/project4Landscape.png"
             ]
         },
         {
@@ -55,8 +55,8 @@
             "live_link": "https://mattrudin.github.io/techdegree_project5_APIrequest/",
             "github_link": "https://github.com/mattrudin/techdegree_project5_APIrequest",
             "image_urls": [
-                "./images/project5Square",
-                "./images/project5Landscape"
+                "./images/project5Square.png",
+                "./images/project5Landscape.png"
             ]
         },
         {
