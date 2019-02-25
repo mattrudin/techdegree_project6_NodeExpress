@@ -1,20 +1,23 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../data.json');
+const { projects } = require('../data.json');
 
 
 /************************************************************************************
 Routes
 ************************************************************************************/
 router.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', {
+        projects
+    });
 });
 router.get('/about', (req, res) => {
     res.render('about');
 });
-router.get('/project',(req, res) => {
+router.get('/:id',(req, res) => {
+    const id = req.params.id;
     res.render('project', {
-        data
+        project: projects[id]
     });
 });
 

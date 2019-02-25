@@ -28,6 +28,7 @@ Error handling
 app.use((req, res, next) => {
     const err = new Error('Page Not Found');
     err.status = 404;
+    console.log(`${err}: ${err.status}`);
     next(err);
 });
 
