@@ -1,0 +1,62 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+li {
+    font-family: 'Fira Mono', serif !important;
+}
+
+.portfolio-me a {
+    font-family: 'Fira Mono', 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.portfolio-breadcrumb a {
+    font-family: 'Fira Mono', 'Lato', Helvetica, Arial, sans-serif;
+}
+
+/* Background color of the me-section and the buttons */
+
+.portfolio-me {
+    background: #203764;
+}
+
+.button {
+    background-color: #305496;
+}
+
+.button:hover {
+    background-color: #2f75b5;
+}
+
+/* Color of anchor tags in portfolio section*/
+.portfolio-me a {
+    color: #999;
+}
+
+.portfolio-me a:hover {
+    color: #555;
+}
+
+/* Grow transition for social media buttons */
+.button {
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+/* Grow transition for project thumbnail */
+.thumbnail {
+    transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
