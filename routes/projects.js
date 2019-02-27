@@ -5,6 +5,7 @@ const { projects } = require('../data.json');
 /************************************************************************************
 Routes
 ************************************************************************************/
+// Custom project page
 router.get('/:id',(req, res) => {
     const id = req.params.id;
     res.render('project', {
