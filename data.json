@@ -1,111 +1,49 @@
 {
-    "projects": [{
-            "id": "0",
-            "project_name": "Random Quote Generator",
-            "description": "Picks one of five quotes and shows it on the page, including source, year and citation (if applicable).",
-            "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "https://mattrudin.github.io/techdegree_project1_randomQuoteGenerator/",
-            "github_link": "https://github.com/mattrudin/techdegree_project1_randomQuoteGenerator",
-            "image_urls": [
-                "/images/project1Square.png",
-                "/images/project1Landscape.png"
-            ]
-        },
-        {
-            "id": "1",
-            "project_name": "Pagination",
-            "description": "User list with pagination.",
-            "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "https://mattrudin.github.io/techdegree_project2_paginationAndFiltering/",
-            "github_link": "https://github.com/mattrudin/techdegree_project2_paginationAndFiltering",
-            "image_urls": [
-                "/images/project2Square.png",
-                "/images/project2Landscape.png"
-            ]
-        },
-        {
-            "id": "2",
-            "project_name": "Interactive Form and Validation",
-            "description": "Form with user input validation and checkboxes.",
-            "technologies": ["JavaScript", "HTML", "CSS", "RegExp"],
-            "live_link": "https://mattrudin.github.io/techdegree_project3_interactiveForm/",
-            "github_link": "https://github.com/mattrudin/techdegree_project3_interactiveForm",
-            "image_urls": [
-                "/images/project3Square.png",
-                "/images/project3Landscape.png"
-            ]
-        },
-        {
-            "id": "3",
-            "project_name": "Object Oriented Programming: Phrase Hunter",
-            "description": "Object Oriented Programming in JavaScript with ECMAScript 2015 syntax.",
-            "technologies": ["OOP principles", " JavaScript", "ECMAScript 2015 and above syntax", "HTML", "CSS"],
-            "live_link": "https://mattrudin.github.io/techdegree_project4_OOP/",
-            "github_link": "https://github.com/mattrudin/techdegree_project4_OOP",
-            "image_urls": [
-                "/images/project4Square.png",
-                "/images/project4Landscape.png"
-            ]
-        },
-        {
-            "id": "4",
-            "project_name": "API request with Fetch",
-            "description": "Uses the fetch API to get data from an API endpoint and shows it on the page.",
-            "technologies": ["JavaScript", "HTML", "CSS", "Fetch API"],
-            "live_link": "https://mattrudin.github.io/techdegree_project5_APIrequest/",
-            "github_link": "https://github.com/mattrudin/techdegree_project5_APIrequest",
-            "image_urls": [
-                "/images/project5Square.png",
-                "/images/project5Landscape.png"
-            ]
-        },
-        {
-            "id": "5",
-            "project_name": "Node.js and Express portfolio site",
-            "description": "Uses the fetch API to get data from an API endpoint and shows it on the page.",
-            "technologies": ["JavaScript", "HTML", "CSS", "Node.js", "Express", "Pug"],
-            "live_link": "n.a.",
-            "github_link": "https://github.com/mattrudin/techdegree_project6_NodeExpress",
-            "image_urls": [
-                "/images/n.a.",
-                "/images/n.a."
-            ]
-        },
-        {
-            "id": "6",
-            "project_name": "Bexio API for browser implementation",
-            "description": "API for www.bexio.com",
-            "technologies": ["JavaScript", "Fetch API"],
-            "live_link": "n.a.",
-            "github_link": "https://github.com/mattrudin/BexioAPI",
-            "image_urls": [
-                "/images/n.a.",
-                "/images/n.a."
-            ]
-        },
-        {
-            "id": "7",
-            "project_name": "Pomodoro Manager",
-            "description": "App with pomodoro clock for Android.",
-            "technologies": ["JavaScript", "React Native"],
-            "live_link": "n.a.",
-            "github_link": "https://github.com/mattrudin/PomodoroManager",
-            "image_urls": [
-                "/images/n.a.",
-                "/images/n.a."
-            ]
-        },
-        {
-            "id": "8",
-            "project_name": "React Grid Hover",
-            "description": "React component for displaying images as grid, with hover effect.",
-            "technologies": ["JavaScript", "React", "styled-components"],
-            "live_link": "n.a.",
-            "github_link": "https://github.com/mattrudin/react-grid-hover",
-            "image_urls": [
-                "/images/n.a.",
-                "/images/n.a."
-            ]
-        }
-    ]
+	"projects": [
+		{
+			"id": "0",
+			"project_name": "Random Quote Generator",
+			"description": "Picks one of five quotes and shows it on the page, including source, year and citation (if applicable).",
+			"technologies": [ "JavaScript", "HTML", "CSS" ],
+			"live_link": "https://mattrudin.github.io/techdegree_project1_randomQuoteGenerator/",
+			"github_link": "https://github.com/mattrudin/techdegree_project1_randomQuoteGenerator",
+			"image_urls": [ "/images/project1Square.png", "/images/project1Landscape.png" ]
+		},
+		{
+			"id": "1",
+			"project_name": "Pagination",
+			"description": "User list with pagination.",
+			"technologies": [ "JavaScript", "HTML", "CSS" ],
+			"live_link": "https://mattrudin.github.io/techdegree_project2_paginationAndFiltering/",
+			"github_link": "https://github.com/mattrudin/techdegree_project2_paginationAndFiltering",
+			"image_urls": [ "/images/project2Square.png", "/images/project2Landscape.png" ]
+		},
+		{
+			"id": "2",
+			"project_name": "Interactive Form and Validation",
+			"description": "Form with user input validation and checkboxes.",
+			"technologies": [ "JavaScript", "HTML", "CSS", "RegExp" ],
+			"live_link": "https://mattrudin.github.io/techdegree_project3_interactiveForm/",
+			"github_link": "https://github.com/mattrudin/techdegree_project3_interactiveForm",
+			"image_urls": [ "/images/project3Square.png", "/images/project3Landscape.png" ]
+		},
+		{
+			"id": "3",
+			"project_name": "Object Oriented Programming: Phrase Hunter",
+			"description": "Object Oriented Programming in JavaScript with ECMAScript 2015 syntax.",
+			"technologies": [ "OOP principles", " JavaScript", "ECMAScript 2015 and above syntax", "HTML", "CSS" ],
+			"live_link": "https://mattrudin.github.io/techdegree_project4_OOP/",
+			"github_link": "https://github.com/mattrudin/techdegree_project4_OOP",
+			"image_urls": [ "/images/project4Square.png", "/images/project4Landscape.png" ]
+		},
+		{
+			"id": "4",
+			"project_name": "API request with Fetch",
+			"description": "Uses the fetch API to get data from an API endpoint and shows it on the page.",
+			"technologies": [ "JavaScript", "HTML", "CSS", "Fetch API" ],
+			"live_link": "https://mattrudin.github.io/techdegree_project5_APIrequest/",
+			"github_link": "https://github.com/mattrudin/techdegree_project5_APIrequest",
+			"image_urls": [ "/images/project5Square.png", "/images/project5Landscape.png" ]
+		}
+	]
 }
